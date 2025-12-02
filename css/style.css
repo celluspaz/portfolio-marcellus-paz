@@ -22,10 +22,15 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
   background: radial-gradient(circle at top, #111827 0, #020617 45%, #020617 100%);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -285,6 +290,13 @@ main {
   padding: 1.4rem 1.3rem;
   border: 1px solid rgba(148, 163, 184, 0.4);
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.8);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 46px rgba(15, 23, 42, 0.95);
+  border-color: rgba(129, 140, 248, 0.6);
 }
 
 .card--border {
@@ -304,6 +316,62 @@ main {
 
 .project-card .card__text {
   margin-bottom: 1rem;
+}
+
+.tech-badges {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tech-badge {
+  font-size: 0.78rem;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.tech-badge__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+}
+
+.tech-badge--python .tech-badge__dot {
+  background: #facc15;
+}
+
+.tech-badge--js .tech-badge__dot {
+  background: #f59e0b;
+}
+
+.tech-badge--sql .tech-badge__dot {
+  background: #38bdf8;
+}
+
+.tech-badge--html .tech-badge__dot {
+  background: #f97316;
+}
+
+.tech-badge--css .tech-badge__dot {
+  background: #3b82f6;
+}
+
+.tech-badge--pandas .tech-badge__dot {
+  background: #a855f7;
+}
+
+.tech-badge--pyautogui .tech-badge__dot {
+  background: #22c55e;
+}
+
+.tech-badge--csv .tech-badge__dot {
+  background: #64748b;
 }
 
 .project-card__links {
@@ -481,6 +549,17 @@ main {
   text-align: center;
   font-size: 0.85rem;
   color: var(--text-soft);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 900px) {
