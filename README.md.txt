@@ -1,36 +1,64 @@
 # Portfólio – Marcellus Paz · DEVTI
 
-Portfólio profissional focado em desenvolvimento **back-end** com ênfase em **Python, JavaScript e SQL**.
+Portfólio profissional focado em **desenvolvimento back-end** com ênfase em **Python, JavaScript e SQL**.
 
-## Tecnologias
+(https://celluspaz.github.io/portfolio-marcellus-paz/)
 
-- HTML
-- CSS (tema dark moderno)
-- JavaScript (interações simples e validação de formulário)
+> 💡 Dica: salve um print da home como `img/preview-portfolio.png` ou ajuste o caminho acima para o nome do arquivo que você usar.
 
-## Estrutura de páginas
+---
 
-- `index.html` – Home, apresentação e principais habilidades.
-- `sobre.html` – Sobre mim, stack e foto.
-- `projetos.html` – Projeto em destaque (este portfólio).
-- `contato.html` – Informações de contato (e-mail, LinkedIn, GitHub).
+## 🌐 Acesse o site
 
-## Como executar
+👉 Portfólio online: **https://celluspaz.github.io/portfolio-marcellus-paz/**
 
-1. Clone o repositório:
+---
 
-  
-   git clone https://github.com/celluspaz/portfolio-marcellus-paz.git
-   2. Abra o arquivo `index.html` diretamente no navegador  
-   ou sirva com um servidor simples (exemplo com Python):
+## 🧩 Tecnologias
 
-  
-   cd portfolio-marcellus-paz
-   python -m http.server 8000
-      Depois acesse `http://localhost:8000`.
+- **HTML5**
+- **CSS3** (tema dark moderno, layout responsivo)
+- **JavaScript** (interações, validações e animações suaves)
 
-## Futuras melhorias
+---
 
-- Publicar o portfólio no GitHub Pages / Vercel.
-- Adicionar mais projetos reais com foco em Python e SQL.
-- Implementar back-end real para formulário de contato (API).
+## 🧭 Estrutura das páginas
+
+- `index.html` – **Home**  
+  Apresentação, título profissional, principais habilidades e call-to-actions para projetos e contato.
+
+- `sobre.html` – **Sobre mim**  
+  Resumo da trajetória, foto estilizada, foco em back-end e informações rápidas (stack e disponibilidade).
+
+- `projetos.html` – **Projetos em destaque**  
+  - Portfólio Marcellus Paz – DEVTI  
+  - Análise de Dados com Python e Pandas  
+  - Automação de Cadastro de Produtos com PyAutoGUI  
+  Cada projeto com descrição, tecnologias e link para o GitHub.
+
+- `contato.html` – **Contato**  
+  Informações diretas para contato: e-mail, LinkedIn e GitHub.
+
+---
+
+## 🚀 Como rodar localmente
+
+git clone https://github.com/celluspaz/portfolio-marcellus-paz.git
+cd portfolio-marcellus-pazAbra o arquivo `index.html` no navegador **ou** use um servidor simples:
+
+# Exemplo com Python 3
+python -m http.server 8000
+# Acesse: http://localhost:8000---
+
+## 🔮 Próximos passos
+
+- Adicionar novos projetos focados em **APIs** e **back-end com Python/SQL**
+- Incluir testes automatizados em projetos futuros
+- Explorar integração com algum back-end real para o formulário de contato
+
+---
+
+## 📬 Contato
+
+- **LinkedIn**: https://www.linkedin.com/in/marcelluspaz/  
+- **GitHub**: https://github.com/celluspaz
