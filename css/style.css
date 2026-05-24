@@ -374,6 +374,18 @@ main {
   background: #64748b;
 }
 
+.tech-badge--docker .tech-badge__dot {
+  background: #0db7ed;
+}
+
+.tech-badge--nodejs .tech-badge__dot {
+  background: #6cc24a;
+}
+
+.tech-badge--postgresql .tech-badge__dot {
+  background: #336791;
+}
+
 .project-card__links {
   margin-top: 0.9rem;
   display: flex;
